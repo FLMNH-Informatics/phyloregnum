@@ -32,7 +32,7 @@ function Phyloregnum(){
                         }
                         specs.push(item) 
                     });
-                    debugger
+                   
                     return ko.observableArray(self.ko.objToArray(specs)).extend({paging: 5});
                 }
             },
@@ -148,7 +148,7 @@ function Phyloregnum(){
         var external = []
         var apomorph = []
         //
-        debugger
+       
         jQuery.each(this.submissionModel.specifiers(), function(ind,obj){
 
             if(obj.specifier_type === 'apomorphy'){
@@ -392,7 +392,7 @@ jQuery.showSpecifier = function(sfor,callback){
         }
     }
     //
-    debugger
+ 
     jQuery.openFloatWindow(temp, opts, cback)//.show().sizeWindow()
     //
     if(callback != undefined){
