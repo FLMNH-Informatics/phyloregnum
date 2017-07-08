@@ -3,3 +3,4 @@ public/data/
 public/system/
 log/site_keys.rb
 database.yml
+recaptcha.rb
